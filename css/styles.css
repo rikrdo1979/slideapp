@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 168px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Ajusta la altura según tus necesidades */
+  z-index: 9999;
+}
+
+img {
+    max-width: 800px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+#slidesContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.slide.active {
+  display: flex;
+}
+
+#slideCounter {
+  position: absolute;
+  bottom: 40px;
+  left: 5%;
+  /* Agrega los estilos que quieras aquí */
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+ul {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+#slideNavigation {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#slideNavigation {
+    display: flex;
+    align-items: center;
+}
+
+#addSlideBtn, .slide .fa-trash {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#addSlideBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+
+#deleteSlideSpan {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+}
+
+#fullscreenSpan {
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+  cursor: pointer;
+}
+
+
+#addSlideBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+
+.dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ccc;
+}
+
