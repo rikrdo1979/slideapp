@@ -20,8 +20,8 @@ Este proyecto es un slideshow interactivo construido usando JavaScript puro. Per
 1. Clona este repositorio en tu máquina local.
 2. Asegúrate de que Docker está instalado y en ejecución.
 3. En una terminal, navega hasta el directorio del proyecto clonado.
-4. Construye la imagen Docker con el comando: `docker build -t slidesapp .`
-5. Lanza el contenedor con el comando: `docker run -d -p 8080:80 -v "$(pwd)":/var/www/html --name slidesapp slidesapp`
+4. Construye la imagen Docker con el comando: `docker build -t slideapp .`
+5. Lanza el contenedor con el comando: `docker run -d -p 8080:80 -v "$(pwd)":/var/www/html --name slideapp slideapp`
 
 Ahora puedes acceder a la aplicación navegando a `localhost:8080` en tu navegador web.
 
@@ -34,9 +34,9 @@ Ahora puedes acceder a la aplicación navegando a `localhost:8080` en tu navegad
 
 ## Parar y Eliminar el Contenedor Docker
 
-Para detener el contenedor Docker, ejecuta el comando: `docker stop slidesapp`
+Para detener el contenedor Docker, ejecuta el comando: `docker stop slideapp`
 
-Para eliminar la imagen del contenedor Docker, ejecuta el comando: `docker rm slidesapp`
+Para eliminar la imagen del contenedor Docker, ejecuta el comando: `docker rm slideapp`
 
 ## Contribuir
 
