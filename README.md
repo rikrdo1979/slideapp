@@ -1,6 +1,6 @@
-# Slideshow con JavaScript
+# Slideapp
 
-Este proyecto es un slideshow interactivo construido usando JavaScript puro. Permite a los usuarios navegar por las diapositivas, agregar nuevas diapositivas, eliminar diapositivas y editar el contenido de cada diapositiva en tiempo real. También incorpora un contador de diapositivas y una funcionalidad de navegación por teclado.
+Este proyecto es un slideshow interactivo construido usando JavaScript puro, HTML5, PHP como lenjuage de servidor y corre sobre un contenedor Docker para facilitar su ejecución. Permite a los usuarios navegar por las diapositivas, agregar nuevas diapositivas, eliminar diapositivas y editar el contenido de cada diapositiva en tiempo real. También incorpora un contador de diapositivas y una funcionalidad de navegación por teclado.
 
 ## Características
 
@@ -32,16 +32,8 @@ Ahora puedes acceder a la aplicación navegando a `localhost:8080` en tu navegad
 - Eliminar diapositivas: Haz clic en el ícono de la papelera en la diapositiva que deseas eliminar.
 - Editar diapositivas: Haz clic en el texto de la diapositiva que deseas editar y comienza a escribir. Los cambios se guardarán automáticamente cuando desenfoques el elemento de texto.
 
-## Parar y Eliminar el Contenedor Docker
+## Detener y Eliminar el Contenedor Docker
 
 Para detener el contenedor Docker, ejecuta el comando: `docker stop slideapp`
 
 Para eliminar la imagen del contenedor Docker, ejecuta el comando: `docker rm slideapp`
-
-## Contribuir
-
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una idea para una característica adicional, no dudes en abrir un problema o una solicitud de extracción.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
