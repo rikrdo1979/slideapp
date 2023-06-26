@@ -23,12 +23,7 @@ $bgColor = file_exists('color.txt') ? trim(file_get_contents('color.txt')) : '#1
     ?>
     <div class="slide active">
       <h1 contenteditable="true">Monitoreo con Telegraf, Prometheus y Grafana</h1>
-      <p contenteditable="true">El poder del monitoreo.</p>
       <p contenteditable="true">Estas tres herramientas trabajan en conjunto para proporcionar una solución completa de monitoreo y visualización de datos en tiempo real.</p>
-    </div>
-    <div class="slide">
-      <h1 contenteditable="true">Flujo de los Datos</h1>
-      <img src="https://placehold.co/800x500" alt="Gráfico de Flujo de los Datos">
     </div>
       <?php
     }
